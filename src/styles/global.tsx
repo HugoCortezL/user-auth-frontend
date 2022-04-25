@@ -43,4 +43,16 @@ export default createGlobalStyle`
             background-color: #B3E9FA;
         }
     }
+
+    input.input{
+        border: none;
+        width: 100%;
+        height: 45px;
+        padding-left: 45px;
+        font-size: 16px;
+        color: #33CBFB;
+        background-color: #D1F4FF;
+        border-radius: 8px;
+        margin-top: 5px;
+    }
 `
