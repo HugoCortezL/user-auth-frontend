@@ -25,6 +25,13 @@ export default function Home(){
                     <span>
                         <AiFillLock size={22} color="#33CBFB"/>
                     </span>
+                    <div className="remember">
+                        <div>
+                            <input type="checkbox"/>
+                            <label>Remember-me</label>
+                        </div>
+                        <p>Forgot password ?</p>
+                    </div>
                 </div>
             </InputContainer>
             <Container>

@@ -13,6 +13,9 @@ export const Container = styled.div`
             color: #B3E9FA;
             text-decoration: underline;
             cursor: pointer;
+            &:hover{
+                color: #EEFFFF;
+            }
         }
     }
 `

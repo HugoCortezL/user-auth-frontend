@@ -24,13 +24,13 @@ This project was created to update my knowledge and use authentication for user 
  
 <h2 id="Features">Features 🔥</h2>
 
-* [ ] Home Page
-* [ ] Login Page
-* [ ] Register Page
+* [X] Home Page
+* [X] Login Page
+* [X] Register Page
 * [ ] Forgot Password Page
 * [ ] New Password Page
 * [ ] Pagination
-* [ ] Responsiveness
+* [X] Responsiveness
 * [ ] Specific error message
 
 <h2 id="pre">Prerequisites ✏️</h2>

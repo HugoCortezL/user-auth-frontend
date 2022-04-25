@@ -13,6 +13,9 @@ export const Container = styled.div`
             color: #B3E9FA;
             text-decoration: underline;
             cursor: pointer;
+            &:hover{
+                color: #EEFFFF;
+            }
         }
     }
 `
@@ -36,6 +39,29 @@ export const InputContainer = styled.form`
             position: absolute;
             top: 36px;
             left: 12px;
+        }
+        div.remember{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                label{
+                    margin-left: 5px;
+                }
+            }
+            p{
+                color: #B3E9FA;
+                text-decoration: underline;
+                cursor: pointer;
+                &:hover{
+                    color: #EEFFFF;
+                }
+            }
         }
     }
 `
