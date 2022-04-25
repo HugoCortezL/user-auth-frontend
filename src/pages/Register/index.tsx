@@ -5,6 +5,8 @@ import {FaUserAlt} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 import {AiFillLock} from 'react-icons/ai'
 
+import { Link } from "react-router-dom";
+
 export default function Register(){
     return(
         <LoginRegisterLayout>
@@ -40,7 +42,10 @@ export default function Register(){
                     Register
                 </button>
                 <p className="register">
-                    Have account ? <span>Login</span>
+                    Have account ? 
+                    <Link to={`/login`}>
+                        <span>Login</span>
+                    </Link>
                 </p>
             </Container>
         </LoginRegisterLayout>

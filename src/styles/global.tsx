@@ -9,14 +9,14 @@ export default createGlobalStyle`
     }
 
     body{
-        background-color: var(--white);
         font-size: 13px;
         font-family: 'Poppins';
         -webkit-font-smoothing: antialiased !important;
         -webkit-text-size-adjust: 100% !important;
     }
-
+    
     button{
+        font-family: 'Poppins';
         letter-spacing: 1px;
         -webkit-font-smoothing: antialiased !important;
         -webkit-text-size-adjust: 100% !important;
@@ -24,6 +24,7 @@ export default createGlobalStyle`
 
     a{
         text-decoration: none;
+        width: 100%;
     }
 
     button.btn{

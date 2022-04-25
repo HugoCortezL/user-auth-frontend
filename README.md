@@ -27,10 +27,10 @@ This project was created to update my knowledge and use authentication for user 
 * [X] Home Page
 * [X] Login Page
 * [X] Register Page
+* [X] Pagination
+* [X] Responsiveness
 * [ ] Forgot Password Page
 * [ ] New Password Page
-* [ ] Pagination
-* [X] Responsiveness
 * [ ] Specific error message
 
 <h2 id="pre">Prerequisites ✏️</h2>

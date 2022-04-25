@@ -4,6 +4,8 @@ import LoginRegisterLayout from '../../Layouts/LoginRegister'
 import {FaUserAlt} from 'react-icons/fa'
 import {AiFillLock} from 'react-icons/ai'
 
+import { Link } from "react-router-dom";
+
 export default function Home(){
     return(
         <LoginRegisterLayout>
@@ -39,7 +41,10 @@ export default function Home(){
                     Login
                 </button>
                 <p className="register">
-                    Don't have account ? <span>Register</span>
+                    Don't have account ? 
+                    <Link to={`/register`}>
+                        <span>Register</span>
+                    </Link>
                 </p>
             </Container>
         </LoginRegisterLayout>
